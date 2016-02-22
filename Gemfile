@@ -43,6 +43,12 @@ group :development, :test do
   gem 'rspec-rails'
 
   gem 'pry-rails'
+
+  gem 'capybara'
+
+  gem 'launchy'
+
+  gem 'shoulda-matchers', github: 'thoughtbot/shoulda-matchers'
 end
 
 group :development do
